@@ -27,3 +27,43 @@ body{
 .employee-payroll{
     color: brown;
 }
+form-head{
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #2b7cc7;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.raw-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid rgb(57, 197, 57);
+}
+
+.label{
+    min-width: 150px;
+}
+
+.label {
+    padding: 12px 12px 12px 0;
+    display: inline;
+}
+
+.text{
+    font-size: 16px;
+    color: #0c2f50;
+    opacity: 1;
+    font-family: Roboto;
+}
+
+.input{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #17ca11;
+    border-radius: 4px;
+    resize: vertical;
+}
