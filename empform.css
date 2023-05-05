@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 5%;
+   background-color: aquamarine; 
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    border: 0% solid green;
+    width: 100%;
+}
+.logo-content-img{
+    border: solid 0%;
+}
+.emp-text{
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0px;
+    color: rgb(20, 17, 212);
+    text-transform: capitalize;
+}
+.employee-payroll{
+    color: brown;
+}
